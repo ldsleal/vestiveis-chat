@@ -1,0 +1,20 @@
+/* styles.css */
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Additional styles if needed */
+.img-vest{
+ width:100%;
+ height: auto;
+};
+.container{
+    background-color: white;
+}
+.text-white {
+    --tw-text-opacity: 1;
+    color: black;
+};
+.bg-blue-900 {
+    background-color: white;
+}
