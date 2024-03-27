@@ -4,17 +4,16 @@
 @tailwind utilities;
 
 /* Additional styles if needed */
-.img-vest{
- width:100%;
- height: auto;
-};
-.container{
-    background-color: white;
+html, body {
+    max-width: 100%;
+    overflow-x: hidden;
 }
-.text-white {
-    --tw-text-opacity: 1;
-    color: black;
-};
-.bg-blue-900 {
-    background-color: white;
+.divider-gradient {
+    background: linear-gradient(to right, #0cd4e3 , #a13cfc);
+    width: 100%;
+}
+.container{
+    width: 100%;
+    padding: 0%;
+    margin-top: 2%;
 }
